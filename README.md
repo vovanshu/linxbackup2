@@ -8,8 +8,8 @@ And extract it where to be needing
 И роспаковки куда будит нужно
 
 	linxbackup.sh - for compress
-									для архивации
+			для архивации
 									
 	linxrestore.sh - for extract
-									 для роспаковки
+			 для роспаковки
 									
