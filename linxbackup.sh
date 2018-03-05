@@ -38,7 +38,6 @@ getsizefs
 
 if [[ -n "$PARH"  ]]; then
 	esizefs=$(cat $LSPATH/size.fs)
-# 	if [[ -z $(grep $sizefs $LSPATH/size.fs) ]] ; then
 	if [[ "$sizefs" -ne "$esizefs" ]] ; then
 		wmsg noeqsizefs
 		exit 1
